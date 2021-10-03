@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 6.25%;
+    font-family: arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    font-size: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+    align-items: center;
+    justify-content: end;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header ul li {
+    list-style: none;
+    padding: 5rem;
+    margin: 5rem;
+}
+
+.header ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.header img {
+    width: auto;
+    height: 30rem;
+    margin: 0 15rem;
+    border-radius: 50%;
+}
+
+.google-search {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50rem;
+}
+
+.google-search img {
+    width: 350rem;
+    height: auto;
+    padding: 20rem;
+    margin: 20rem;
+}
+
+.google-search input {
+    width: 600rem;
+    height: 45rem;
+    border: solid 0.5rem gray;
+    border-radius: 50rem;
+    padding: 10rem 20rem;
+    font-size: 16rem;
+}
+
+.buttons button {
+    margin: 25rem 10rem;
+    padding: 15rem;
+    border: none;
+    border-radius: 5rem;
+}
+
+.footer {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10rem 15rem;
+}
+
+.left-options ul, .right-options ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-options ul li, .right-options ul li {
+    list-style: none;
+    padding: 5rem;
+    margin: 5rem;
+}
+
+.left-options ul li a, .right-options ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, li:hover {
+    text-decoration: underline;
+}
